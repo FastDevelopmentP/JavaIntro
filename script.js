@@ -4,8 +4,9 @@ let foods = ["Pizza", "Beef Soup", "Burrito Bowls", "Ice Cream", "Burgers", "Ste
 
 
 // 2. Loop through the list and print: "One of my favorite foods is ______."
-
-
+for (let i = 0; i < foods.length; i++) {
+    console.log("One of my favorite foods is " + foods[i] + ".");
+}
 
 
 
@@ -14,6 +15,12 @@ let foods = ["Pizza", "Beef Soup", "Burrito Bowls", "Ice Cream", "Burgers", "Ste
 // "My #2 favorite food is Sushi"
 // ...etc.
 
+console.log("My #1 favorite food is " + foods[5] + ".");
+console.log("My #2 favorite food is " + foods[1] + ".");
+console.log("My #3 favorite food is " + foods[4] + ".");
+console.log("My #4 favorite food is " + foods[3] + ".");
+console.log("My #5 favorite food is " + foods[2] + ".");
+console.log("My #6 favorite food is " + foods[0] + ".");
 
 
 
